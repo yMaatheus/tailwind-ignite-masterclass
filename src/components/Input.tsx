@@ -1,8 +1,8 @@
 import { ComponentProps } from 'react'
 
-type InputPreffixProps = ComponentProps<'div'>
+type InputPrefixProps = ComponentProps<'div'>
 
-export function Preffix(props: InputPreffixProps) {
+export function Prefix(props: InputPrefixProps) {
   return <div {...props} />
 }
 
