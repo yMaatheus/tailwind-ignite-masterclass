@@ -66,9 +66,9 @@ export default function Home() {
               Email address
             </label>
             <Input.Root>
-              <Input.Preffix>
+              <Input.Prefix>
                 <Mail className="h-5 w-5 text-zinc-500" />
-              </Input.Preffix>
+              </Input.Prefix>
               <Input.Control
                 id="email"
                 type="email"
