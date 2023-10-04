@@ -1,5 +1,5 @@
 import { SettingsTabs } from '@/components/SettingsTabs'
-import * as Input from '@/components/Input'
+import * as Input from '@/components/Form/Input'
 import { Bold, Italic, Link, List, ListOrdered, Mail } from 'lucide-react'
 import * as FileInput from '@/components/Form/FileInput'
 import { Select } from '@/components/Form/Select'
@@ -56,7 +56,6 @@ export default function Home() {
               <div className="flex flex-col gap-3 lg:block">
                 <label
                   htmlFor="lastName"
-                  id="lastName"
                   className="text-sm font-medium text-zinc-700 lg:sr-only"
                 >
                   Last Name

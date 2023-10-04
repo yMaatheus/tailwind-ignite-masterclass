@@ -17,7 +17,7 @@ import { NavItem } from './NavItem'
 import { UsedSpaceWidget } from './UsedSpaceWidget'
 import { Profile } from './Profile'
 import * as Collapsible from '@radix-ui/react-collapsible'
-import * as Input from '@/components/Input'
+import * as Input from '@/components/Form/Input'
 import { Button } from '../Button'
 
 export function Sidebar() {
